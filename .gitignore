@@ -1,0 +1,18 @@
+# 忽略 RStudio 專案和歷史檔案
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+
+# 忽略 macOS 系統檔案
+.DS_Store
+
+# 忽略 R Markdown/Quarto 編譯中產生的暫存資料夾
+*_cache/
+*_files/
+
+# 忽略 RStudio 自動生成的專案設定檔 (如果不想追蹤)
+# Project.Rproj 
+
+# 臨時排除所有 outputs 資料夾下的檔案，除了您要保留的
+# /outputs/*
